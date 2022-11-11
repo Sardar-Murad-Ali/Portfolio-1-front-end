@@ -1,0 +1,12 @@
+.AllMain{
+ background: url("./images/light.webp");   
+ background-position: center;
+ height: auto;
+ width: 100%;
+padding: 2rem 7%;
+}
+
+.portFolioHeaders{
+    margin-left: 10%;
+    margin-bottom: 40px;
+}

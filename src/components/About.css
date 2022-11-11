@@ -1,0 +1,61 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300&family=Open+Sans:wght@300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300&family=Open+Sans:wght@300&display=swap');
+
+.AboutMain{
+    display: flex;
+    padding: 2rem 7%;
+    margin-top: 50px;
+}
+
+.LongPara{
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.Image{
+    margin-right: 40px;
+    letter-spacing: 10px;
+    line-height: 10px;
+}
+
+.ShortPara{
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 5px;
+}
+
+.City{
+    display: flex;
+    margin-top: 30px;
+}
+
+.City img{
+    margin-right: 30px;
+}
+
+.Country{
+    color: lightgray;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Uni{
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+@media screen and (max-width:800px){
+    .AboutMain{
+        flex-direction: column-reverse
+    }
+    .AboutMain .Content{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .City{
+        flex-direction: column;
+    }
+    .CityInfo{
+        margin-top: 30px;
+    }
+}

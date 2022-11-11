@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300&family=Open+Sans:wght@300&display=swap');
+
+.ContactMain{
+    display: flex;
+    padding: 2rem 7%;
+    margin-top: 50px;
+}
+
+.PhoneNumber{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.WhatsAppNumber{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.WhatsAppNumber .icon{
+    margin-right: 20px;
+    margin-top: 10px;
+    color: greenyellow;
+}
+.PhoneNumber .icon{
+    color: gray;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.Number{
+    font-family: 'Alkalami', serif;
+    font-size: 20px;
+}
+
+.WhatsApp{
+    font-family: 'Alkalami', serif;
+    font-size: 20px;
+}
+
+.ContactForm{
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 100%;
+}
+
+.EmailContact{
+    font-family: 'Alkalami', serif;
+}
+
+.EmailSubmit{
+    margin-right: 100%;
+}
+
+@media screen and (max-width:800px){
+    .ContactMain{
+        flex-direction: column;
+    }
+    .ContactForm{
+        width: 80%;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,19 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Cedarville+Cursive&family=Cormorant+Garamond:wght@300&family=Handlee&family=Open+Sans:wght@300&display=swap'); */
+
+.Navbar{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    left: 0;
+    box-shadow: 0 3px 10px ;
+}
+.activeLinks{
+    color:lightblue
+}
+
+@media screen and (max-width:900px){
+    .Logo{
+        display: none;
+    }
+}
